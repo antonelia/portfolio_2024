@@ -19,7 +19,7 @@ p{
 section li{
     font-size: 1.2em;
 }
-li{
+#contacto li{
     list-style: none;
 }
 a{
@@ -136,8 +136,22 @@ section h2{
 .navbar-nav .nav-item a:hover::after {
     width: 100%;
 }
-/* Sobre mi */
 
+/* Home */
+#home .row{
+    margin: auto;
+}
+
+@media(max-width: 991px){
+    #home{
+        padding-top: 7rem;
+    }
+    
+    #home .row div:nth-child(1){
+        height: 6.5rem;
+    }
+}
+/* Sobre mi */
 @media(max-width:991px){
     #sobre-mi img{
         max-width: 50%;
@@ -204,10 +218,26 @@ section h2{
     border-radius: 10px;
 }
 #trabajos .row{
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
+@media(max-width:991px){
+    #trabajos h3{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    #trabajos .row{
+        margin: auto;
+    }
+}
+@media(min-width:992px){
+    #trabajos .row{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        align-items: center;
+    }
+}
+
 
 #contacto li{
     margin-top: 2rem;
