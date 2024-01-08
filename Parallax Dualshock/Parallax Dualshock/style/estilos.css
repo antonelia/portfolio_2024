@@ -1,0 +1,250 @@
+/**************************************REGLAS GENERALES*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-family: 'SST Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SST Roman'), url('SSTRg.woff') format('woff');
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    border-radius: 10px;
+    background: rgb(24, 24, 24);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #353535;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6fc0bd;
+  }
+
+h1, h2{
+    font-size: 2.5em;
+    font-weight: 600;
+    font-family: 'SST Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SST Heavy'), url('SSTHeavy.woff') format('woff');
+}
+
+h2{
+    font-size: 3em;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+img{
+    max-width: 70%;;
+}
+
+#dos, #tres, #cuatro, #cinco{
+    padding: 4em;
+    padding-top:8em !important;
+    padding-bottom: 8em !important;
+}
+
+.row{
+    margin: 0px;
+}
+/**************************************HEADER*/
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+    background-color: rgb(4,14,73);
+    z-index: 10000;
+    box-shadow: 0px 10px 23px 0px rgba(2,6,29,0.58);
+-webkit-box-shadow: 0px 10px 23px 0px rgba(2,6,29,0.58);
+-moz-box-shadow: 0px 10px 23px 0px rgba(2,6,29,0.58);
+    
+}
+header img{
+    max-width: 20%;
+}
+
+/**************************************REGLAS SECCION UNO*/
+#uno{
+
+    text-align: center;
+    background: rgb(16,105,218);
+    background: rgb(4,14,73);
+/* background: linear-gradient(90deg, rgba(4,14,73,1) 0%, rgba(46,82,220,1) 100%); */
+    background: rgb(46,82,220);
+    background: radial-gradient(circle, rgba(46,82,220,1) 0%, rgba(4,14,73,1) 100%);
+    color: white;
+    padding-bottom: 8em;
+    margin-top: 2%;
+
+    
+}
+
+#uno h1{
+    padding-top: 1em;
+    font-size: 4em;;
+    text-shadow: rgba(120,120,120,1);
+    font-family: 'SST Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SST Bold'), url('SSTBold.woff') format('woff');
+        
+}
+
+#uno p{
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+}
+
+#uno img{
+    max-width: 100%;
+}
+
+/**************************************REGLAS SECCION DOS*/
+#dos{
+    padding: 4em;
+    padding-left: 7em;
+    /* background: url(../img/pswave.png) no-repeat fixed; */
+    background-image: url('../img/pswave.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 0px;
+    max-width: 100vw;
+
+}
+
+#dos h2{
+    margin-top: 1.5em;;
+}
+
+#flote{
+    overflow: hidden;
+}
+
+/**************************************REGLAS SECCION TRES*/
+
+#tres{
+    background: rgb(46,82,220);
+    background: radial-gradient(circle, rgba(46,82,220,1) 0%, rgba(4,14,73,1) 100%);
+    /*background: url(../img/text-fondo.jpg) no-repeat fixed;
+    background-size: cover;*/
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.432);
+    max-width: 100vw;
+    color: white;
+}
+
+#tres .col-5{
+    padding-right: 2em;
+    padding-top: 4em;
+}
+/**************************************REGLAS SECCION CUATRO*/
+#cuatro{
+    background: url(../img/pswave2.png) no-repeat fixed;
+    background-size: cover;
+    max-width: 100vw;
+    padding: 6em;
+    padding-left: 14em;
+    padding-right: 2em;
+}
+
+/**************************************REGLAS SECCION CINCO*/
+
+#cinco {
+    background: rgb(46,82,220);
+    background: radial-gradient(circle, rgba(46,82,220,1) 0%, rgba(4,14,73,1) 100%);
+    max-width: 100vw;
+    color: white;
+}
+
+#cinco img{
+    max-width: 100%;
+}
+ #violeta{
+     z-index: 1000;
+ }
+
+ #cinco p{
+     padding-right: 12em;
+     padding-left: 12em;
+ }
+
+ /**************************************REGLAS SECCION SEIS*/
+
+#seis{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background: url(../img/wp2608160.jpg) no-repeat fixed;
+    background-size: cover;
+    background-position: y-0;
+    color: white;
+} 
+
+form{
+    text-align: left;
+}
+
+form div{
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+ h3{
+  
+     font-size: 1em;
+     margin-bottom: 14px;
+     
+}
+
+select{
+  width: 100%;
+  height: 2.3em;
+}
+
+#enviarform{
+    text-align: right;
+}
+
+#contacto .container .row {
+    padding-right: 8em;
+    padding-left: 8em;
+}
+
+#cajaComentario{
+    padding-right: 10.8em;
+    padding-left: 10.8em;
+
+}
+footer{
+    background-color: rgb(4,14,73);
+}
+footer p{
+    font-size: .8rem;
+}
+.nav-link i{
+    color: rgb(196, 202, 233);
+    font-size: 2rem;
+}
+
+footer ul{
+    width: 100%;
+}

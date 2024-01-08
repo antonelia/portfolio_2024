@@ -1,0 +1,77 @@
+@media(max-width: 768px){
+    p{
+        font-size: 1em;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+
+    #uno {
+        margin-top: 16%;
+        padding: 0 5%;
+        padding-bottom: 5em;
+        
+    }
+
+    #uno p{
+        margin-bottom: 6%;
+    }
+
+    #uno h1{
+        font-size: 2.5em;
+    }
+
+    #dos, #tres, #cuatro, #cinco, #seis{
+        padding: 0;
+    }
+
+    #cinco p{
+        padding: 0;
+    }
+
+    #contacto{
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    #contacto .container .row {
+        padding: 0;
+    }
+    #cajaComentario, #enviarform {
+        padding: 0;
+    }
+
+    .form-check{
+        margin: 0;
+        padding: 0;
+        padding-right: 2.2rem;
+        margin-bottom: 2rem;
+    }
+
+    footer{
+       
+        background: black;
+    }
+
+    footer p{
+        font-size: 0.6rem;
+    }
+
+    footer .nav-item{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .navbar-brand{
+        width: 70%;
+    }
+
+    .navbar-brand img{
+        max-width: 80%;
+    }
+
+    #cinco img{
+        max-width: 80%;
+    }
+}
